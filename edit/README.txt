@@ -9,7 +9,7 @@ or more hardcore
 current=$(pwd)
 cd /usr/bin
 echo "Downloading..."
-sudo wget -O edit https://raw.github.com/yuannan/bash/edit/edit.sh
+sudo wget -O edit https://raw.github.com/yuannan/bash/master/edit/edit.sh
 echo "chmod to let you execute it..."
 sudo chmod u+x edit
 echo "returning you to were you were before..."
