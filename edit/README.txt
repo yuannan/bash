@@ -6,14 +6,18 @@ Download it and put it into /usr/bin with
 
 or more hardcore
 
-current=$(pwd)
+#COPY ALL CODE FROM HERE!!!
+
+currentwd=$(pwd)
 cd /usr/bin
 echo "Downloading..."
 sudo wget -O edit https://raw.github.com/yuannan/bash/master/edit/edit.sh
 echo "chmod to let you execute it..."
 sudo chmod u+x edit
 echo "returning you to were you were before..."
-cd $current
+cd $currentwd
 echo "All done! now try"
 echo "edit [file_you_want_to_edit]"
 echo "Enjoy :)"
+
+#END COPY OF CODE
